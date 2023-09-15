@@ -2,4 +2,8 @@ function countBits(n) {
   return 1;
 }
 
-module.exports = countBits;
+function intToBin(n) {
+  return 1;
+}
+
+module.exports = { countBits, intToBin };

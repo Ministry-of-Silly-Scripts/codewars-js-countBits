@@ -39,3 +39,5 @@ Example: The binary representation of `1234` is `10011010010`, so the function s
 - domain and rules description ✅
 - perform the 'canary' test just to check if the structure works ✅
 - it should return 1 for input equal to 1 ✅
+- create function to convert to binary (intToBin)
+  - it should return 1 to input equal to 1 ✅
