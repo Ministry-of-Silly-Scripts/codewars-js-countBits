@@ -1,5 +1,12 @@
 function countBits(n) {
-  return 1;
+  let binStr = intToBin(n);
+  let sum = 0;
+  for (let i in binStr) {
+    if (binStr[i] === '1') {
+      sum += 1;
+    }
+  }
+  return sum;
 }
 
 function intToBin(n) {
@@ -10,7 +17,6 @@ function intToBin(n) {
     r = q % 2;
     q = Math.floor(q / 2);
     bin.push(r);
-    console.log(q, r, bin);
   } while (q != 0);
 
   return bin.reverse().join('');

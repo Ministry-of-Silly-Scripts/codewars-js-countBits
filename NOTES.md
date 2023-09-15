@@ -50,3 +50,4 @@ Example: The binary representation of `1234` is `10011010010`, so the function s
 - intToBin
   - it should return '11000000111001' to input equal to 12345 ✅
 - it should return 1 for input equal to 2 ✅
+- it should return 2 for input equal to 10 ✅
