@@ -1,6 +1,6 @@
 const countBits = require('./countBits');
 
-describe('the kata name canary spec', () => {
+describe('the countBits canary spec', () => {
   it('shows the infrastructure works', () => {
     expect(true).toBe(true);
   });
