@@ -52,3 +52,5 @@ Example: The binary representation of `1234` is `10011010010`, so the function s
 - it should return 1 to input equal to 2 ✅
 - it should return 2 to input equal to 10 ✅
 - it should return 6 to input equal to 12345 ✅
+- refactored removing intToBin ✅
+- refactored using split/filter ✅
