@@ -8,7 +8,16 @@ Example: The binary representation of `1234` is `10011010010`, so the function s
 
 ## Domain
 
+- integer (non-negative)
+- number of bits equal to one
+- binary representation
+
 ## Rules
+
+- input: integer
+- convert the number to binary
+- convert the binary to string
+- count number of ones
 
 ## Backlog
 
@@ -27,6 +36,5 @@ Example: The binary representation of `1234` is `10011010010`, so the function s
   - update NOTES ✅
   - update package.json ✅
   - update code/test files ✅
-- domain description 
-- backlog
+- domain and rules description ✅
 - perform the 'canary' test just to check if the structure works
