@@ -24,4 +24,8 @@ describe('countBits', () => {
   it('should return 1 for input equal to 1', () => {
     expect(countBits(1)).toBe(1);
   });
+
+  it('should return 1 for input equal to 2', () => {
+    expect(countBits(1)).toBe(1);
+  });
 });
