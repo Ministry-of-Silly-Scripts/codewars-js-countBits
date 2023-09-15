@@ -14,6 +14,10 @@ describe('intToBin', () => {
   it('should return "10" for input equal to 2', () => {
     expect(intToBin(2)).toBe('10');
   });
+
+  it('should return "11000000111001" for input equal to 12345', () => {
+    expect(intToBin(12345)).toBe('11000000111001');
+  });
 });
 
 describe('countBits', () => {

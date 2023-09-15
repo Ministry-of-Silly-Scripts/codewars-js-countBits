@@ -45,3 +45,7 @@ Example: The binary representation of `1234` is `10011010010`, so the function s
 ### Pomodoro 2 🍅:
 - intToBin
   - it should return '10' to input equal to 2 ✅
+
+### Pomodoro 3 🍅:
+- intToBin
+  - it should return '11000000111001' to input equal to 12345 ✅
