@@ -1,5 +1,5 @@
-function countBits() {
-  return 'hello';
+function countBits(n) {
+  return 1;
 }
 
 module.exports = countBits;

@@ -6,8 +6,8 @@ describe('the countBits canary spec', () => {
   });
 });
 
-describe('hello', () => {
-  it('should return hello', () => {
-    expect(countBits()).toBe('hello');
+describe('countBits', () => {
+  it('should return 1 for input equal to 1', () => {
+    expect(countBits(1)).toBe(1);
   });
 });
