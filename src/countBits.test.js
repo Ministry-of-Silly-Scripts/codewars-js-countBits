@@ -1,4 +1,4 @@
-const hello = require('./hello');
+const countBits = require('./countBits');
 
 describe('the kata name canary spec', () => {
   it('shows the infrastructure works', () => {
@@ -8,6 +8,6 @@ describe('the kata name canary spec', () => {
 
 describe('hello', () => {
   it('should return hello', () => {
-    expect(hello()).toBe('hello');
+    expect(countBits()).toBe('hello');
   });
 });
